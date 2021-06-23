@@ -23,7 +23,7 @@
     "build:timelock": "graph build subgraphs/timelock.yaml",
     "build:trading": "graph build subgraphs/trading.yaml",
     "deploy:blocks": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/blocks subgraphs/blocks.yaml",
-    "deploy:exchange": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/exchange subgraphs/exchange.yaml",
+    "deploy:exchange": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ umerfarooq397/babeswap subgraphs/exchange.yaml",
     "deploy:pairs": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/pairs subgraphs/pairs.yaml",
     "deploy:prediction": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/prediction subgraphs/prediction.yaml",
     "deploy:profile": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/profile subgraphs/profile.yaml",
